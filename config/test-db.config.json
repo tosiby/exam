@@ -1,0 +1,11 @@
+{
+  "description": "Dedicated non-production database settings for automated tests.",
+  "engine": "postgres",
+  "host": "127.0.0.1",
+  "port": 55432,
+  "database": "exam_test",
+  "username": "test_user",
+  "password": "test_pass",
+  "ssl": false,
+  "resetStrategy": "drop-and-recreate"
+}

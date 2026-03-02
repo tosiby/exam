@@ -1,0 +1,12 @@
+{
+  "name": "@exam/web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node src/dev-server.js",
+    "test": "playwright test -c playwright.config.ts"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.2"
+  }
+}
